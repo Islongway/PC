@@ -1,3 +1,10 @@
+<!--
+ * @Description:
+ * @Autor: islongwayzzm
+ * @Date: 2020-12-28 10:06:23
+ * @LastEditors: islongwayzzm
+ * @LastEditTime: 2020-12-28 11:37:38
+-->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -34,10 +41,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
+  // props: {
+  //   msg: String
+  // }
 }
 </script>
 

@@ -1,24 +1,12 @@
+<!--
+ * @Description: 项目说明
+ * @Autor: islongwayzzm
+ * @Date: 2020-12-28 10:07:47
+ * @LastEditors: islongwayzzm
+ * @LastEditTime: 2020-12-28 11:16:20
+-->
 # pc
 
-## Project setup
-```
-yarn install
-```
+**常用操作**
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`serve -s dist`: 打包后预览(如若不行请先 `npm install serve -g`)

@@ -3,37 +3,21 @@
  * @Autor: islongwayzzm
  * @Date: 2020-12-28 10:06:23
  * @LastEditors: islongwayzzm
- * @LastEditTime: 2020-12-28 11:38:03
+ * @LastEditTime: 2020-12-28 16:37:26
 -->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <SvgIcon iconClass="chxCost"></SvgIcon>
+    <i class="iconfont icon-xiaoxi2"></i>
     <router-view />
   </div>
 </template>
+<script>
 
+export default {
+
+}
+</script>
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
